@@ -2,13 +2,17 @@
   background-color: crimson;
   padding: 5px 20px;
 }
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 button{
   border-radius: 5px;
   color: black;
   background-color: aqua;
-  left: 250px;
-  position: relative;
-top: 125px;
   width: 50vw;
   height: 50px;
   font-size: 20px;
@@ -19,16 +23,15 @@ top: 125px;
   transition: 0.3s;
   margin: 5px;
   
+  display: block;
 }
 
 h3{
-position: relative;
-left: 35%;
-top: 50px;
 color: white;   
 font-family: 'Courier New', Courier, monospace;
 font-size: 40px;
 text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 20px;
 
 }
 
