@@ -1,0 +1,33 @@
+*{
+  background-color: crimson;
+  padding: 5px 20px;
+}
+button{
+  border-radius: 5px;
+  color: black;
+  background-color: aqua;
+  left: 250px;
+  position: relative;
+top: 125px;
+  width: 50vw;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+  
+}
+
+h3{
+position: relative;
+left: 35%;
+top: 50px;
+color: white;   
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
+text-shadow: 2px 2px 4px #000000;
+
+}
