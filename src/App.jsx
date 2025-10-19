@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="center-container">
       {num === 10 ? (
-        <h1>I love You </h1>
+        <h1> Happy Diwali  </h1>
       ) : num === -10 ? (
         <h1>Send Me Your Hot Pic🥵</h1>
       ) : (
